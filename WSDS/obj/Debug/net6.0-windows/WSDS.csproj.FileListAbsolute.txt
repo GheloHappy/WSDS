@@ -19,3 +19,34 @@ D:\workspace\WPF\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.genruntimeconfig.cache
 D:\workspace\WPF\WSDS\WSDS\obj\Debug\net6.0-windows\ref\WSDS.dll
 D:\workspace\WPF\WSDS\WSDS\obj\Debug\net6.0-windows\Login.g.cs
 D:\workspace\WPF\WSDS\WSDS\obj\Debug\net6.0-windows\Login.baml
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\WSDS.exe
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\WSDS.deps.json
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\WSDS.runtimeconfig.json
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\WSDS.dll
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\WSDS.pdb
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.csproj.AssemblyReference.cache
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Login.g.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\App.g.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS_MarkupCompile.cache
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS_MarkupCompile.lref
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Login.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.g.resources
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.GeneratedMSBuildEditorConfig.editorconfig
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.AssemblyInfoInputs.cache
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.AssemblyInfo.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.csproj.CoreCompileInputs.cache
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.dll
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\refint\WSDS.dll
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.pdb
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.genruntimeconfig.cache
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\ref\WSDS.dll
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Themes\BorderTheme.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Themes\MenuButtonTheme.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Components\DashboardViewHome.g.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\DashboardView.g.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\App.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Components\DashboardViewHome.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\DashboardView.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\QuotationView.g.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\QuotationView.baml

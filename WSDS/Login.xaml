@@ -12,7 +12,7 @@
         Background="Transparent">
     <Border Background="#85ff9b"
             CornerRadius="20">
-        <Border Margin="20"
+        <Border Margin="10"
                 Background="#FF1D2127"
                 CornerRadius="20">
             <Grid>
@@ -27,6 +27,21 @@
                        VerticalAlignment="Center"
                        HorizontalAlignment="Left"
                        Foreground="White"/>
+                <Button Name="btnExit"
+                            Grid.Column="1"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Width="50">
+                    <TextBlock Text="X"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               Foreground="White"
+                               FontWeight="Bold"
+                               FontSize="35"/>
+                </Button>
+
                 <StackPanel Grid.Row="1">
                     <TextBlock Text="Warehouse Sales and Documentation"
                            Foreground="White"
@@ -55,7 +70,7 @@
                                  BorderThickness="2"
                                  HorizontalContentAlignment="Center"/>
                     <Button x:Name="btnSubmit"
-                            Margin="50 30 50 0"
+                            Margin="80 30 80 0"
                             Content="LOGIN"
                             FontWeight="Bold"
                             FontSize="30"/>

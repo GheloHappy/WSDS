@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\workspace\WPF\WSDS\WSDS\obj\Debug\net6.0-windows\
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\
 WSDS
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\workspace\WPF\WSDS\WSDS\App.xaml
-11511144637
+D:\2. Working Projects\WSDS\WSDS\App.xaml
+6618412567
 
-5-1872021692
-1941905061893
-Login.xaml;
+13-900211898
+194-97651837
+Components\DashboardViewHome.xaml;Login.xaml;Themes\BorderTheme.xaml;Themes\MenuButtonTheme.xaml;Views\DashboardView.xaml;Views\QuotationView.xaml;
 
-False
+True
 

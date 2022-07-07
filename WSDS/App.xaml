@@ -2,8 +2,20 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WSDS"
-             StartupUri="Login.xaml">
+             StartupUri="Views/QuotationView.xaml"
+             xmlns:viewModel="clr-namespace:WSDS.ViewModels"
+             xmlns:view ="clr-namespace:WSDS.Views"
+             xmlns:viewComponent ="clr-namespace:WSDS.Components">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/BorderTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <viewComponent:DashboardViewHome/>
+            </DataTemplate>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

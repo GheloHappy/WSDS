@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HAPPY\\.nuget\\packages\\": {},
+    "C:\\Users\\Ghelonico\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\WPF\\WSDS\\WSDS\\WSDS.csproj",
+      "projectUniqueName": "D:\\2. Working Projects\\WSDS\\WSDS\\WSDS.csproj",
       "projectName": "WSDS",
-      "projectPath": "D:\\workspace\\WPF\\WSDS\\WSDS\\WSDS.csproj",
-      "packagesPath": "C:\\Users\\HAPPY\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\WPF\\WSDS\\WSDS\\obj\\",
+      "projectPath": "D:\\2. Working Projects\\WSDS\\WSDS\\WSDS.csproj",
+      "packagesPath": "C:\\Users\\Ghelonico\\.nuget\\packages\\",
+      "outputPath": "D:\\2. Working Projects\\WSDS\\WSDS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HAPPY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ghelonico\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -68,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
