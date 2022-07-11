@@ -1,0 +1,104 @@
+﻿<Window x:Class="WSDS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WSDS"
+        xmlns:viewModel="clr-namespace:WSDS.ViewModels" xmlns:customcontrols="clr-namespace:WSDS.CustomControls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+
+    <Window.DataContext>
+        <viewModel:LoginViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilty"/>
+    </Window.Resources>
+
+    <Window.Visibility>
+        <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BooleanToVisibilty}"/>
+    </Window.Visibility>
+    
+    <Border Background="#85ff9b"
+            CornerRadius="20">
+        <Border Margin="10"
+                Background="#FF1D2127"
+                CornerRadius="20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Label Content="Status"
+                   FontSize="15"
+                       Margin="15 0 0 0"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Foreground="White"/>
+                <Button Name="btnExit"
+                            Grid.Column="1"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Width="50">
+                    <TextBlock Text="X"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               Foreground="White"
+                               FontWeight="Bold"
+                               FontSize="35"/>
+                </Button>
+
+                <StackPanel Grid.Row="1" FocusManager.FocusedElement="{Binding ElementName=txtUser}">
+                    <TextBlock Text="Warehouse Sales and Documentation"
+                           Foreground="White"
+                           HorizontalAlignment="Center"
+                           FontSize="25"
+                           FontWeight="ExtraBold"
+                           Margin="0 20 0 0"
+                           TextWrapping="Wrap"
+                           TextAlignment="Center"/>
+                    <Label Content="Username:"
+                           Foreground="White"
+                           FontSize="16"
+                           Margin=" 45 10 0 0"/>
+                    <TextBox x:Name="txtUser"
+                             Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                             Margin="50 0"
+                             FontSize="25"
+                             TextAlignment="Center"
+                             BorderThickness="2"/>
+                    <Label Content="Password:"
+                           Foreground="White"
+                           FontSize="16"
+                           Margin=" 45 10 0 0"/>
+                    <customcontrols:BindablePasswordBox Password="{Binding Password, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+
+                    <TextBlock Text="{Binding ErrorMessage}"
+                               Foreground="#D75960"
+                               FontSize="20"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               Margin="45 10 45 0"
+                               TextWrapping="Wrap"
+                               />
+
+                    <Button x:Name="btnSubmit"
+                            Command="{Binding LoginCommand}"
+                            Margin="80 10 80 0"
+                            Content="LOGIN"
+                            FontWeight="Bold"
+                            FontSize="30"
+                            IsDefault="True"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\2. Working Projects\WSDS\WSDS\App.xaml
-6618412567
+7-738632318
 
-13-900211898
-194-97651837
-Components\DashboardViewHome.xaml;Login.xaml;Themes\BorderTheme.xaml;Themes\MenuButtonTheme.xaml;Views\DashboardView.xaml;Views\QuotationView.xaml;
+201493796885
+195401362999
+Components\DashboardViewHome.xaml;CustomControls\BindablePasswordBox.xaml;Themes\BorderTheme.xaml;Themes\MenuButtonTheme.xaml;Views\DashboardView.xaml;Views\Login.xaml;Views\QuotationView.xaml;
 
 True
 

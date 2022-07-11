@@ -53,7 +53,7 @@ namespace WSDS.Components {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WSDS;component/components/dashboardviewhome.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WSDS;V1.0.0.0;component/components/dashboardviewhome.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Components\DashboardViewHome.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

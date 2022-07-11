@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using WSDS.Views;
 
 namespace WSDS
 {
@@ -13,5 +14,19 @@ namespace WSDS
     /// </summary>
     public partial class App : Application
     {
+        protected void ApplicationStart(object sender, StartupEventArgs e)
+        {
+            var loginView = new MainWindow();
+            loginView.Show();
+            loginView.IsVisibleChanged += (s, ev) =>
+            {
+                if (loginView.IsVisible == false && loginView.IsLoaded)
+                {
+                    var dashboardView = new Dashboard();
+                    dashboardView.Show();
+                    loginView.Close();
+                }
+            };
+        }
     }
 }

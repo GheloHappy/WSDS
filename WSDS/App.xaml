@@ -2,10 +2,11 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WSDS"
-             StartupUri="Views/QuotationView.xaml"
              xmlns:viewModel="clr-namespace:WSDS.ViewModels"
              xmlns:view ="clr-namespace:WSDS.Views"
-             xmlns:viewComponent ="clr-namespace:WSDS.Components">
+             xmlns:viewComponent ="clr-namespace:WSDS.Components"
+             
+             StartupUri="Views/QuotationView.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

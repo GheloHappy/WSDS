@@ -25,11 +25,9 @@ D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\WSDS.runtimeconfig.jso
 D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\WSDS.dll
 D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\WSDS.pdb
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.csproj.AssemblyReference.cache
-D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Login.g.cs
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\App.g.cs
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS_MarkupCompile.cache
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS_MarkupCompile.lref
-D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Login.baml
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.g.resources
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.GeneratedMSBuildEditorConfig.editorconfig
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.AssemblyInfoInputs.cache
@@ -50,3 +48,14 @@ D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\DashboardView.ba
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\QuotationView.g.cs
 D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\QuotationView.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\Login.g.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\Views\Login.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\CustomControls\BindablePasswordBox.g.cs
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\CustomControls\BindablePasswordBox.baml
+D:\2. Working Projects\WSDS\WSDS\obj\Debug\net6.0-windows\WSDS.csproj.CopyComplete
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\2. Working Projects\WSDS\WSDS\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
